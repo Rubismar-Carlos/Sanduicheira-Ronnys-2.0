@@ -1,0 +1,278 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+@media (min-width: 830px) {
+
+    /* Caixa com logo da empresa */
+    .slide-img- {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+        padding: 20px 0px;
+        background-color: #ec0404d8;
+    }
+
+    /* Informaçoes sobre os sanduiches */
+    .menu-lanches-informativo {
+        margin-top: 30px;
+        font-size: 1.5em;
+        color: #ec0404;
+        font-style: italic;
+    }
+
+    .menu-lanches {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 80px;
+        margin-top: 60px;
+    }
+    .item-lanche {
+        text-align: center;
+        height: 350px;
+    }
+    .item-lanche h3 {
+        padding-top: 10px;
+        font-size: 25pt;
+        color: #ec0404;
+        border-bottom: 3px solid lightgrey;
+    }
+
+    /* Caixa sobre about */
+    .quem-somos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-color: rgb(211, 211, 211);
+        gap: 20px;
+    }
+
+    .menu-lanches-informativo {
+        margin-top: 30px;
+        font-size: 1.2em;
+        font-style: italic;
+        padding-top: 30px;
+    }
+
+    .quem-somos-img {
+        width: 800px;
+        height: 400px;
+    }
+
+    .quem-somos-img img {
+        width: 100%;
+        height: 400px;
+        border-radius: 15px;
+        border: 2px solid #ec0404;;
+    }
+    .quem-somos-texto {
+        width: 700px;
+        height: 300px;;
+        text-align: justify;
+        font-size: 1.4em;
+        font-weight: bold;
+        text-indent: 30px;
+        padding: 0px 10px;
+        color: gray;
+    }
+
+    /* Informação do instagram */
+    .informativo-instagram > h3{
+        font-size: 1.2em;
+        color: #ec0404;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Caixa com as imagens do instagram - desktop */
+    .container-instagram {
+        width: 800px;
+        border: 2px solid #ec0404;
+        background-color: rgba(211, 211, 211, 0.479);
+        margin: 0 auto;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        gap: 5px;
+    }
+
+    .box-instagram {
+        width: 250px;
+        height: 250px;
+    }
+
+    .box-instagram img {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 829px) {
+
+    /* Caixa com imagem da logo */
+    .slide-img- {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+        padding: 20px 0px;
+        background-color: #ec0404d8;
+    }
+
+    .slide-img- img {
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+    }
+
+    /* informaçoes sobre os lanches  */
+    .menu-lanches-informativo > h1 {
+        color: #ec0404;
+        font-size: 1.5em;
+    }
+
+    /* Caixa onde vai as informaçoes do sanduiche */
+    .menu-lanches {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .item-lanche {
+        text-align: center;
+        width: 300px;
+    }
+    .item-lanche h3 {
+        padding-top: 10px;
+        font-size: 25pt;
+        color: #ec0404;
+        border-bottom: 3px solid lightgray;
+    }
+
+    .item-img img{
+        width: 250px;
+    }
+
+    /* Caixa da parte sobre nos */
+    .quem-somos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: lightgrey;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+
+    .quem-somos-img {
+        width: 90%;
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    .quem-somos-img img {
+        width: 100%;
+        height: 300px;
+        border-radius: 20px;
+        border: 2px solid #ec0404;
+    }
+
+    .quem-somos-texto {
+        width: 90%;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: justify;
+        font-size: 13pt;
+        font-weight: bold;
+        text-indent: 20px;
+        padding: 10px;
+        color: gray;
+    }
+
+    .menu-lanches-informativo {
+        margin-top: 30px;
+        font-size: 1.2em;
+        font-style: italic;
+        padding-top: 30px;
+    }
+
+    /* Caixa com as imagens do instagram - mobile */
+    .container-instagram {
+        width: 375px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid #ec0404;
+        background-color: rgba(211, 211, 211, 0.479);
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        gap: 1px;
+    }
+
+    .box-instagram {
+        width: 110px;
+        height: 100px;
+    }
+
+    .box-instagram img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Informaçoes gerais sobre o instagram */
+
+.instagram {
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+    border: 2px solid #ec0404;
+    background-color: rgba(211, 211, 211, 0.479);
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0px;
+}
+
+.informativo-instagram {
+    color: #ec0404;
+}
+
+.img-insta {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.img-insta i {
+    font-size: 1.5em;
+    margin-right: 10px;
+}

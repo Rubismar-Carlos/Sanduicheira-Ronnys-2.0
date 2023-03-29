@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sanduicherias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    background-color: #ec0404d7;
+    border-top: 3px solid yellow;
+    padding-bottom: 30px;
+    color: yellow;
+}
+
+.sanduicherias a:hover {
+    color: lightgray;
+}
+.img-contato {
+    margin: 30px 0px;
+}
+.sanduicherias img {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+}
+
+.sanduicheria {
+    margin-top: 20px;
+    text-align: left;
+    width: 300px;
+    height: 200px;
+    border-bottom: 2px solid yellow;
+}
+
+/* Logo de quem desenvolveu site */
+footer {
+    padding-top: 20px;
+    background-color: #ec0404d7;
+    color: yellow;
+    text-align: center;
+}
+
+footer p {
+    padding: 1px;
+}
+
+.img-footer {
+    width: 90px;
+    margin: 0 auto;
+}
+
+.img-footer img {
+    width: 100%;
+}

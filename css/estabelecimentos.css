@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(211, 211, 211, 0.596);
+}
+
+/* Identificação de pagina */
+.identificar {
+    text-align: center;
+    margin: 30px 0px;
+    color: gray;
+}
+
+.identificar span {
+    color: gray;
+}
+
+/* Destacar fundo para nao ficar tudo igual */
+.destaque {
+    background-color: rgba(211, 211, 211, 0.822);
+    padding-top: 10px;
+}
+
+/* Container com as lojas e contatos de cada uma*/
+.container-lojas {
+    margin-bottom: 60px;
+}
+
+.container-lojas h2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #ec0404;
+}
+
+.lojas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.lojas p {
+    color: gray;
+    padding: 1px;
+}
+
+.lojas-contatos p {
+    font-size: 1.1em;
+    padding: 2px;
+}
+
+.lojas-contatos a {
+    color: gray;
+}
+
+@media (min-width: 800px) {
+    .img-lojas {
+        width: 700px;
+    }
+
+    .img-lojas img {
+        width: 100%;
+        border-radius: 20px;
+        border: 2px solid #ec0404;
+    }
+}
+
+@media (max-width: 799px) {
+    .img-lojas {
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .img-lojas img {
+        width: 100%;
+        border-radius: 10px;
+        border: 2px solid #ec0404;
+    }
+}

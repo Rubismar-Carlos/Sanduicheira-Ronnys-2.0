@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(211, 211, 211, 0.596);
+}
+
+.identificar {
+    text-align: center;
+}
+
+.identificar h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ec0404;
+}
+
+.identificar span {
+    color: gray;
+}
+
+span {
+    font-size: 1.1em;
+}
+
+/* Container com os botoes para paginas de cardápio */
+.btn-opçoes {
+    display: flex;
+    justify-content: center;
+    background-image: url("../imagem/bebidas-home.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.btn-opçoes a {
+    color: white;
+}
+
+.btn-opçoes a:hover {
+    color: yellow;
+}
+
+
+/* Botões do cardápio */
+.sanduiches {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ec040488;    
+    height: 30px;
+    color: white;
+    
+}
+
+.adicionais {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ec040488;    
+    height: 30px;
+    color: white;
+}
+
+.bebidas {
+    border-radius: 10px;
+    padding: 10px;
+    height: 30px;
+    background-color: #ec040488;    
+    color: white;
+}
+
+.combos {
+    border-radius: 10px;
+    padding: 10px;
+    height: 30px;
+    background-color: #ec040488;
+    color: white;
+}
+
+/* Caixa com produtos e valores "Sucos, Sucos Combinados e cremes" */
+.menu-bebidas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-bottom: 30px;
+}
+
+.bebidas-nome {
+    text-align: center;
+    color: #ec0404;
+}
+
+
+.container-produtos {
+    margin-top: 30px;
+    display: flex;
+    width: 200px;
+}
+
+.container-produtos h4 {
+    padding: 5px;
+}
+
+.produto {
+    color: gray;
+    text-align: left;
+    width: 80%;
+}
+
+.produto-valor {
+    color: #ec0404;
+    text-align: right;
+}
+
+/* valor do produto dos sucos combinados */
+.container-sc {
+    margin-top: 30px;
+}
+
+.items {
+    display: flex;
+    color: gray;
+}
+
+.item {
+    width: 80%;
+    text-align: left;
+}
+
+.items span {
+    color: #ec0404;
+}
+
+.item-valor {
+    color: #ec0404;
+}
+
+/* Parte do ovomaltine, açai e creme de Limão */
+.acompanhamentos {
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.acompanhamentos img {
+    width: 90%;
+    height: 230px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.acompanhamentos-items {
+    text-align: center;
+}
+
+.acompanhamentos-items h2 {
+    color: #ec0404;
+}
+
+.acompanhamentos-items h4 {
+    color: #ec0404;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ec0404;
+}
+
+/* Adicionais para açai */
+.adicionais-acai {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.adicionais-acai h2{
+    margin-bottom: 5px;
+    color: #ec0404;
+}
+
+.adicionais-acai p {
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.adicionais-acai h4 {
+    padding: 5px;
+}
+
+/* Bebidas como refrigerante */
+.outras-bebidas {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.outras-bebidas h2 {
+    color: #ec0404;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.outras-bebidas p {
+    color: gray;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.outras-bebidas h4 {
+    padding: 5px;
+}

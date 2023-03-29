@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(211, 211, 211, 0.596);
+}
+
+.identificar {
+    text-align: center;
+}
+
+.identificar h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ec0404;
+}
+
+.identificar span {
+    color: gray;
+}
+
+span {
+    font-size: 1.1em;
+}
+
+/* Container com os botoes para paginas de cardápio */
+.btn-opçoes {
+    display: flex;
+    justify-content: center;
+    background-image: url("../imagem/sanduiches-home.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    height: 200px;
+    gap: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.btn-opçoes a {
+    color: white;
+}
+
+.btn-opçoes a:hover {
+    color: yellow;
+}
+
+
+/* Botões do cardápio */
+.sanduiches {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ec040488;    
+    height: 30px;
+    color: white;
+}
+
+.adicionais {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ec040488;    
+    height: 30px;
+    color: white;
+}
+
+.bebidas {
+    border-radius: 10px;
+    padding: 10px;
+    height: 30px;
+    background-color: #ec040488;    
+    color: white;
+}
+
+.combos {
+    border-radius: 10px;
+    padding: 10px;
+    height: 30px;
+    background-color: #ec040488;
+    color: white;
+}
+
+/* Cardãpio sanduiches */
+.informativo {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 25px 0px;
+    color: #ec0404;
+}
+
+.informativo p {
+    padding-top: 10px;
+    color: gray;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu h4 {
+    color: #ec0404;
+}
+
+.menu-items {
+    gap: 20px;
+    margin-bottom: 5px;
+}
+
+.menu-items h5{
+    padding-left: 20px;
+    border-bottom: 2px solid lightslategray;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    color: gray;
+}
+
+.items {
+    display: flex;
+}
+
+.item {
+    width: 95%;
+}
+
+
+
+/* Parte da box onde tem o molho ervas */
+
+.informativo-molho {
+    text-align: center;
+    margin-top: 40px;
+    color: #ec0404;
+}
+
+.informativo-molho h4 {
+    color: #ec0404;
+    padding-top: 10px;
+}
+
+.informativo-molho p {
+    color: gray;
+    padding-top: 10px;
+}
+.molho {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    justify-content: center;
+    display: flex;
+}
+.img-molho {
+    width: 250px;
+    height: 250px;
+}
+.molho img {
+    width: 100%;
+}
